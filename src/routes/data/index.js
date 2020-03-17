@@ -3,7 +3,7 @@
 const express = require('express')
 const router = express.Router()
 const Feed = require('../../models/feed.model')
-const Message = require('../../models/feed.model')
+const Message = require('../../models/message.model')
 
 router.get('/getFeed', (req, res) => {
     Feed.find({})
